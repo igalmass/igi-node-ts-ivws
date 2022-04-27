@@ -1,0 +1,36 @@
+{
+  "name": "my-node-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --exit-child src/index.ts",
+    "start": "ts-node src/index.ts",
+    "dev-dfs": "ts-node src/ivws-igi-practice/fb-string-calc-2.ts",
+    "dev-has-path": "ts-node src/test-check/my-console-tricks.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test2": "jest --watchAll --config ./jest.config.ts -- src/ivws/from_leet/leet-20-valid-parentheses.spec.ts",
+    "test3": "jest --watchAll --config ./jest.config.ts -- src/ivws-igi-practice/leet-reverse-integer.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "@types/lodash": "^4.14.181",
+    "@types/node": "^17.0.21",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.6.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "@babel/preset-typescript": "^7.16.7",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "jest": "^27.5.1",
+    "lodash": "^4.17.21",
+    "react-google-maps": "^9.4.5"
+  }
+}
